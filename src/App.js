@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <div class="content">
+      <div className="content">
         {/* <h1>{ title }</h1>
         <p>Liked { likes } times</p>
          */}
