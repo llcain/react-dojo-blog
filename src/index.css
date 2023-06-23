@@ -50,3 +50,12 @@
   color:#f1356d;
   margin-bottom: 8px;
 }
+
+.button {
+  font-size: 15px;
+  color: white;
+  background-color: #f1356d;
+  border: none;
+  margin-top: 5px;
+  border-radius: 5px;
+}
