@@ -1,6 +1,7 @@
 
 import Home from './Home';
 import Navbar from './Navbar';
+import Create from './Create';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -16,8 +17,11 @@ function App() {
           <p>Liked { likes } times</p>
            */}
              <Switch>
-              <Route path="/">
+              <Route exact path="/">
                 <Home />
+              </Route>
+              <Route path="/create">
+                <Create />
               </Route>
              </Switch>
          
