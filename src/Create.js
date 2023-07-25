@@ -13,6 +13,7 @@ const Create = () => {
                 ></textarea>
                 <label>Blog author:</label>
                 <select>
+                    <option value="LaQuisha">laquisha</option>
                     <option value="mario">mario</option>
                     <option value="yoshi">yoshi</option>
                 </select>
